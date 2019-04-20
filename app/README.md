@@ -98,7 +98,7 @@ trait ExampleCommunication extends Communication {
 ```
 
 The `Communication` interface defines anything shared between client and server relating to communication. There are
-lots of things that could be done here, but in the above example we're simply exploring the most use-case: methods.
+lots of things that could be done here, but in the above example we're simply exploring the most common use-case: methods.
 
 These methods are defined with an annotation defining where they will be implemented. Also note, all methods must return
 a `Future` since the very nature of client / server communication is asynchronous and this allows the interface to
